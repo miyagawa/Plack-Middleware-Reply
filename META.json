@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "REPL when your app throwse exceptions",
    "author" : [
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>"
    ],
@@ -36,6 +36,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp::Reply" : "0",
+            "Plack" : "1.000",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +48,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/Plack-Middleware-Reply/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/Plack-Middleware-Reply",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/miyagawa/Plack-Middleware-Reply.git",
+         "web" : "https://github.com/miyagawa/Plack-Middleware-Reply"
+      }
+   },
    "version" : "0.01"
 }
 
